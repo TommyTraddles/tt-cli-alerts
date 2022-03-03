@@ -1,8 +1,17 @@
 {
   "name": "cli-name",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "get to know more",
-  "keywords": ["tommy traddles"],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": "TommyTraddles",
+  "author": {
+    "name": "Tommy Traddles",
+    "email": "ill.better.be.of@gmail.com"
+  },
+  "keywords": [
+    "tommy traddles"
+  ],
   "bin": {
     "cli-name": "src/index.js"
   },
