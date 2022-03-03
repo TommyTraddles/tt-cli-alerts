@@ -2,6 +2,7 @@
   "name": "cli-name",
   "version": "2.0.0",
   "description": "get to know more",
+  "keywords": ["tommy traddles"],
   "bin": {
     "cli-name": "src/index.js"
   },
