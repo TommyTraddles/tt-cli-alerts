@@ -84,9 +84,9 @@ customize existing or your custom alerts.
 
 const { warning } = require('tt-cli-alerts')
 
-alert.warning('lorem ipsum dolor sit amet')
+warning('lorem ipsum dolor sit amet')
 
-alert.warning('lorem ipsum dolor sit amet', {
+warning('lorem ipsum dolor sit amet', {
   icon: '🔥',
   title: 'waaarning',
   color: '#ffa500',
