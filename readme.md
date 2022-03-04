@@ -56,11 +56,11 @@ const foo = alertFactory('foo')
 foo('lorem ipsum dolor sit amet')
 
 // creating alert name + color
-const bar = alertFactory('bar', '#fff')
+const bar = alertFactory('bar', '#deaa00')
 bar('lorem ipsum dolor sit amet')
 
 // creating alert name + color + icon
-const baz = alertFactory('baz', '#fff', '')
+const baz = alertFactory('baz', '#00a9bc', '🤟')
 baz('lorem ipsum dolor sit amet')
 
 
@@ -118,7 +118,7 @@ type: `bool` <br>
 default: `false`
 
 
-#### > transparent
+#### > mesage
 
 type: `string` <br>
 default: `Message cannot be empty` (Error message)
