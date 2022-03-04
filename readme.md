@@ -19,7 +19,7 @@ provide message into the desired type of alert:
 <br>
 <br>
 
-![tt-cli-alerts default alerts](./media/default-alerts.png)
+![tt-cli-alerts default alerts](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/default-alerts.png?raw=true)
 
 
 ```js
@@ -45,7 +45,7 @@ create your own alerts with the `alertFactory`.
 <br>
 <br>
 
-![tt-cli-alerts default alerts](./media/custom-alerts.png)
+![tt-cli-alerts custom alerts](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/custom-alerts.png?raw=true)
 
 ```js
 const { alertFactory } = require('tt-cli-alerts')
@@ -78,7 +78,7 @@ customize existing or your custom alerts.
 <br>
 <br>
 
-![tt-cli-alerts default alerts](./media/overide-styles.png)
+![tt-cli-alerts overide styles](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/overide-styles.png?raw=true)
 
 ```js
 
