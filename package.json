@@ -1,6 +1,6 @@
 {
   "name": "tt-cli-alerts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI Alerts with customizable design for success, info, warning, error, and custom alerts. Based on Ahmad Awais course.",
   "license": "MIT",
   "main": "src/index.js",
