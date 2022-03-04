@@ -3,20 +3,17 @@
 
 > CLI Alerts with customizable design for  `success`, `info`, `warning`, `error`, and `custom` alerts. Based on Ahmad Awais course.
 
-<br>
-<br>
 
 ## 👉 install
 ```sh
 npm tt-cli-alerts
 ```
+
 <br>
 
 ## 👉 usage
 
-<br>
 provide message into the desired type of alert:
-<br>
 <br>
 
 ![tt-cli-alerts default alerts](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/default-alerts.png?raw=true)
@@ -41,8 +38,8 @@ alert.info('This is an information message')
 ```
 
 <br>
-create your own alerts with the `alertFactory`.
-<br>
+
+create your own alerts with the `alertFactory`:
 <br>
 
 ![tt-cli-alerts custom alerts](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/custom-alerts.png?raw=true)
@@ -70,12 +67,8 @@ baz('lorem ipsum dolor sit amet')
 
 ## 👉 API
 
-
-<br>
-
 ### overriding styles
 customize existing or your custom alerts.
-<br>
 <br>
 
 ![tt-cli-alerts overide styles](https://github.com/TommyTraddles/tt-cli-alerts/blob/main/media/overide-styles.png?raw=true)
@@ -98,33 +91,26 @@ warning('lorem ipsum dolor sit amet', {
 ### options
 
 #### > icon
-
 type: `string` <br>
 default: `'★'`
 
 #### > title
-
 type: `string` <br>
 default: `alertFactory given name`
 
 #### > color
-
 type: `string` <br>
-default: `#fff`
+default: `#fff` (HEX number)
 
 #### > transparent
-
 type: `bool` <br>
 default: `false`
 
-
 #### > mesage
-
 type: `string` <br>
 default: `Message cannot be empty` (Error message)
 
 <br>
-
 
 ## 👉 Mantainers
 
