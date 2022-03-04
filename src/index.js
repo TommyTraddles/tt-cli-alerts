@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 
 const pkg = require('../package.json')
-const { cliWelcome } = require('./utils')
-
+const { cliWelcome, alert } = require('./utils')
+const chalk = require('chalk')
 
 // header
 cliWelcome({
@@ -16,8 +16,13 @@ const output = `
 
   Hello, this is Tommy Traddles
 
-  🤖 github: https://github.com/TommyTraddles
+  🤖 github: ${chalk.dim('https://github.com/TommyTraddles')}
 
 `
 
 console.log(output)
+alert.success('Thank you for downloading')
+alert.error("Your task is being executed")
+alert.warning('Ilegal move')
+alert.info('something went wrong')
+
