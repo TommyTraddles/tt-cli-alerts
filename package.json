@@ -4,21 +4,28 @@
   "description": "CLI Alerts with customizable design for success, info, warning, error, and custom alerts. Based on Ahmad Awais course.",
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "TommyTraddles/tt-cli-alerts",
   "author": {
     "name": "TommyTraddles",
     "email": "ill.better.be.of@gmail.com"
   },
-  "files": [
-    "src"
-  ],
+  "homepage": "https://github.com/TommyTraddles/tt-cli-alerts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TommyTraddles/tt-cli-alerts"
+  },
+  "bugs": {
+    "url": "https://github.com/TommyTraddles/tt-cli-alerts/issues"
+  },
   "keywords": [
     "cli-alerts",
     "alerts"
   ],
-  "bin": {
-    "tt-cli-alerts": "src/index.js"
-  },
+  "engines": {
+		"node": ">=8"
+	},
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "chalk": "^2.4.2"
   },

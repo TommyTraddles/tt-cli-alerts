@@ -1,5 +1,3 @@
-#! /usr/bin/env node
-
 const chalk = require('chalk')
 const logSymbols = require('./utils/alert-icons')
 
