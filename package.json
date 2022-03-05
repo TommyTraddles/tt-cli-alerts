@@ -10,8 +10,7 @@
     "email": "ill.better.be.of@gmail.com"
   },
   "files": [
-    "src",
-    "test"
+    "src"
   ],
   "keywords": [
     "cli-alerts",
